@@ -28,6 +28,5 @@ jobs:
         run: npm Install ci
       - name: Run build
         run: npm run build
-        run: echo " Build successful"
-        run: echo "Build successful"
-      
+      - name: deploy to the server
+        run: echo " Deployed successfully"
