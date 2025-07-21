@@ -1,7 +1,5 @@
 name: WF for lint, test and Deploy
 on: push
-  branches:
-    - main
 jobs:
   lintjob:
     runs-on: ubuntu-latest
